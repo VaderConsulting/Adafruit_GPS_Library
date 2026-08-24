@@ -2,6 +2,7 @@
 
 An interrupt-based GPS library for no-parsing-required use. Original author: Adafruit. This is Dave Robinson's working copy from the Arduino `libraries` tree. Version recorded in `library.properties`: 1.6.0. Upstream: <https://github.com/adafruit/Adafruit_GPS>.
 
+**Source last updated:** 2022-02-11  
 **Language:** C++ / Arduino  
 **Target:** Arduino (*)  
 **Output:** Arduino library
