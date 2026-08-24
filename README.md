@@ -1,35 +1,38 @@
 # Adafruit_GPS_Library
 
-Arduino sketch or library from the Arduino archive.
+An interrupt-based GPS library for no-parsing-required use. Original author: Adafruit. This is Dave Robinson's working copy from the Arduino `libraries` tree. Version recorded in `library.properties`: 1.6.0. Upstream: <https://github.com/adafruit/Adafruit_GPS>.
 
-## Contents
+**Language:** C++ / Arduino  
+**Target:** Arduino (*)  
+**Output:** Arduino library
 
-- `examples/GPS_SoftwareSerial_EchoTest/GPS_SoftwareSerial_EchoTest.ino`
-- `examples/GPS_I2C_OLEDdebug/GPS_I2C_OLEDdebug.ino`
-- `examples/NMEA_EXTENSIONS/NMEA_EXTENSIONS.ino`
-- `examples/GPS_HardwareSerial_LOCUS_Erase/GPS_HardwareSerial_LOCUS_Erase.ino`
-- `examples/GPS_HardwareSerial_LOCUS_Start/GPS_HardwareSerial_LOCUS_Start.ino`
-- `examples/GPS_SoftwareSerial_Parsing/GPS_SoftwareSerial_Parsing.ino`
-- `examples/shield_sdlog/shield_sdlog.ino`
-- `examples/GPS_SoftwareSerial_LOCUS_Start/GPS_SoftwareSerial_LOCUS_Start.ino`
-- `examples/GPS_HardwareSerial_EchoTest/GPS_HardwareSerial_EchoTest.ino`
-- `examples/GPS_HardwareSerial_LOCUS_Status/GPS_HardwareSerial_LOCUS_Status.ino`
-- `examples/blank/blank.ino`
-- `examples/GPS_SoftwareSerial_LOCUS_Status/GPS_SoftwareSerial_LOCUS_Status.ino`
-- `examples/GPS_SPI_EchoTest/GPS_SPI_EchoTest.ino`
-- `examples/GPS_HardwareSerial_Parsing/GPS_HardwareSerial_Parsing.ino`
-- `examples/GPS_HardwareSerial_Timing/GPS_HardwareSerial_Timing.ino`
-- `examples/GPS_SoftwareSerial_LOCUS_DumpBasic/GPS_SoftwareSerial_LOCUS_DumpBasic.ino`
-- `examples/GPS_I2C_EchoTest/GPS_I2C_EchoTest.ino`
-- `examples/GPS_HardwareSerial_LOCUS_DumpBasic/GPS_HardwareSerial_LOCUS_DumpBasic.ino`
-- `examples/GPS_SoftwareSerial_LOCUS_Erase/GPS_SoftwareSerial_LOCUS_Erase.ino`
-- `examples/GPS_I2C_Parsing/GPS_I2C_Parsing.ino`
-- `library.properties`
+## Solution structure
+
+| Project | Language | Type | Purpose |
+|---------|----------|------|---------|
+| `Adafruit GPS Library` | C++ / Arduino | library | An interrupt-based GPS library for no-parsing-required use |
+| `GPS_HardwareSerial_EchoTest` | C++ / Arduino | example sketch | `examples/GPS_HardwareSerial_EchoTest/GPS_HardwareSerial_EchoTest.ino` |
+| `GPS_HardwareSerial_LOCUS_DumpBasic` | C++ / Arduino | example sketch | `examples/GPS_HardwareSerial_LOCUS_DumpBasic/GPS_HardwareSerial_LOCUS_DumpBasic.ino` |
+| `GPS_HardwareSerial_LOCUS_Erase` | C++ / Arduino | example sketch | `examples/GPS_HardwareSerial_LOCUS_Erase/GPS_HardwareSerial_LOCUS_Erase.ino` |
+| `GPS_HardwareSerial_LOCUS_Start` | C++ / Arduino | example sketch | `examples/GPS_HardwareSerial_LOCUS_Start/GPS_HardwareSerial_LOCUS_Start.ino` |
+| `GPS_HardwareSerial_LOCUS_Status` | C++ / Arduino | example sketch | `examples/GPS_HardwareSerial_LOCUS_Status/GPS_HardwareSerial_LOCUS_Status.ino` |
+| `GPS_HardwareSerial_Parsing` | C++ / Arduino | example sketch | `examples/GPS_HardwareSerial_Parsing/GPS_HardwareSerial_Parsing.ino` |
+| `GPS_HardwareSerial_Timing` | C++ / Arduino | example sketch | `examples/GPS_HardwareSerial_Timing/GPS_HardwareSerial_Timing.ino` |
+| `GPS_I2C_EchoTest` | C++ / Arduino | example sketch | `examples/GPS_I2C_EchoTest/GPS_I2C_EchoTest.ino` |
+
+## How to open
+
+Install this folder as an Arduino library (Sketch → Include Library → Add .ZIP Library, or copy into `libraries/Adafruit_GPS_Library`). Open any `examples/*.ino` from the Arduino IDE.
 
 ## Attribution and provenance
 
-- No third-party source-code attribution markers were identified in assembly/package metadata.
+- **Original author / maintainer:** Adafruit
+- **library.properties name:** Adafruit GPS Library
+- **Version:** 1.6.0
+- **Upstream URL:** <https://github.com/adafruit/Adafruit_GPS>
+- **Category:** Sensors
+- This repository is Dave Robinson's working copy for catalogue/reference; authorship stays with the original authors.
 
 ## License
 
-MIT. See `LICENSE`.
+Original bsd-style terms in `license.txt`. This repository does not claim authorship of the upstream library. See `THIRD_PARTY_NOTICES.md`. The `LICENSE` file added at import is a VaderConsulting MIT wrapper and does not replace upstream terms.
